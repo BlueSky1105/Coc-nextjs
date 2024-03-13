@@ -9,6 +9,7 @@ import "@theme-toggles/react/css/Lightbulb.css"
 import { useState, useEffect } from 'react';
 
 const player = () => {
+  console.log("QQQQQQQQQQQQQ")
   const [isToggled, setToggle] = useState(false)
   const { setTheme } = useNextTheme();
   const { isDark, type } = useTheme();
